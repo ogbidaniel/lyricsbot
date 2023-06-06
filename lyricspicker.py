@@ -4,7 +4,7 @@ import os
 
 def get_line():
     # Specify the file path of the albums folder
-    albums_path = "C:\\Users\\maver\\Documents\\Python\\Projects\\tweepy-bots\\albums"
+    albums_path = "Ekwesu/billywoodsbot/albums"
 
     # Get the list of album folders in the albums folder
     albums = [folder for folder in os.listdir(albums_path) if os.path.isdir(os.path.join(albums_path, folder))]
